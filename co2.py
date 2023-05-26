@@ -17,8 +17,11 @@ from math import sqrt
 #matplotlib inline
 
 ## atributing dataset to a dataframe df
-df = pd.read_csv('/content/FuelConsumptionCo2.csv')
+df = pd.read_csv('/FuelConsumptionCo2.csv')
 df.head(2)
+
+from google.colab import drive
+drive.mount('/content/drive')
 
 df.info()
 
