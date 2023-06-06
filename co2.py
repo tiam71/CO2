@@ -52,9 +52,9 @@ df['MODELYEAR'].nunique()
 
 # ploting graph engine size x CO2 emissions
 plt.figure(figsize=(13,5))
-sns.lineplot(x=df['ENGINESIZE'], y=df['CO2EMISSIONS'])
-plt.xlabel('Motor engine')
-plt.ylabel('CO2 emissions')
+sns.lineplot(x=df['引擎尺寸'], y=df['CO2排放量'])
+plt.xlabel('摩托車引擎')
+plt.ylabel('CO2排放量')
 plt.show()
 
 import mplcyberpunk
