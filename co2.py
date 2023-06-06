@@ -15,6 +15,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
+import pickle as pkl
 
 from math import sqrt
 
